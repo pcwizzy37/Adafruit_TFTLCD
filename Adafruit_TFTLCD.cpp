@@ -120,7 +120,7 @@ void Adafruit_TFTLCD::init(void) {
 
 // Initialization command tables for different LCD controllers
 #define TFTLCD_DELAY 0xFF
-static const uint8_t HX8347G_regValues[] PROGMEM = {/*
+/*static const uint8_t HX8347G_regValues[] PROGMEM = {
   0x2E           , 0x89,
   0x29           , 0x8F,
   0x2B           , 0x02,
@@ -169,10 +169,10 @@ static const uint8_t HX8347G_regValues[] PROGMEM = {/*
   0x06           , 0x00,
   0x07           , 0x00,
   0x08           , 0x01,
-  0x09           , 0x3F*/
-};
+  0x09           , 0x3F
+};*/
 
-static const uint8_t HX8357D_regValues[] PROGMEM = {/*
+/*static const uint8_t HX8357D_regValues[] PROGMEM = {
   HX8357_SWRESET, 0,
   HX8357D_SETC, 3, 0xFF, 0x83, 0x57,
   TFTLCD_DELAY, 250,
@@ -191,10 +191,10 @@ static const uint8_t HX8357D_regValues[] PROGMEM = {/*
   HX8357_SLPOUT, 0,
   TFTLCD_DELAY, 150,
   HX8357_DISPON, 0, 
-  TFTLCD_DELAY, 50,*/
-};
+  TFTLCD_DELAY, 50,
+};*/
 
-static const uint16_t ILI932x_regValues[] PROGMEM = {/*
+/*static const uint16_t ILI932x_regValues[] PROGMEM = {
   ILI932X_START_OSC        , 0x0001, // Start oscillator
   TFTLCD_DELAY             , 50,     // 50 millisecond delay
   ILI932X_DRIV_OUT_CTRL    , 0x0100,
@@ -245,8 +245,8 @@ static const uint16_t ILI932x_regValues[] PROGMEM = {/*
   ILI932X_PANEL_IF_CTRL4   , 0X1100,
   ILI932X_PANEL_IF_CTRL5   , 0X0000,
   ILI932X_PANEL_IF_CTRL6   , 0X0000,
-  ILI932X_DISP_CTRL1       , 0x0133, // Main screen turn on*/
-};
+  ILI932X_DISP_CTRL1       , 0x0133, // Main screen turn on
+};*/
 
 void Adafruit_TFTLCD::begin(uint16_t id) {
   uint8_t i = 0;

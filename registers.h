@@ -1,5 +1,5 @@
 // Register names from Peter Barrett's Microtouch code
-#define ILI932X_START_OSC          0x00
+/* #define ILI932X_START_OSC          0x00
 #define ILI932X_DRIV_OUT_CTRL      0x01
 #define ILI932X_DRIV_WAV_CTRL      0x02
 #define ILI932X_ENTRY_MOD          0x03
@@ -58,7 +58,7 @@
 #define HX8347G_ROWADDRSTART_LO    0x07
 #define HX8347G_ROWADDREND_HI      0x08
 #define HX8347G_ROWADDREND_LO      0x09
-#define HX8347G_MEMACCESS          0x16
+#define HX8347G_MEMACCESS          0x16 */
 
 
 
@@ -95,7 +95,7 @@
 
 
 
-#define HX8357_NOP     0x00
+/*#define HX8357_NOP     0x00
 #define HX8357_SWRESET 0x01
 #define HX8357_RDDID   0x04
 #define HX8357_RDDST   0x09
@@ -169,4 +169,4 @@
 #define HX8357B_MADCTL_ML  0x10
 #define HX8357B_MADCTL_RGB 0x00
 #define HX8357B_MADCTL_BGR 0x08
-#define HX8357B_MADCTL_MH  0x04
+#define HX8357B_MADCTL_MH  0x04 */
